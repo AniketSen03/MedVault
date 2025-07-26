@@ -59,7 +59,7 @@ const About = () => {
           <div className="flex flex-col items-center">
             <div className="rounded-2xl overflow-hidden w-[320px] h-[220px] md:w-[340px] md:h-[230px] mb-4">
               <img ref={imageRef}
-                src="src/assets/About.jpg"
+                src="/About.jpg"
                 alt="About MedVault"
                 className="object-cover"
               />
