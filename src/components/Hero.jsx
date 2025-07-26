@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 // Add your image paths here
 const images = [
-  "src/assets/Banner1.jpg",
-  "src/assets/Banner2.jpg",
-  "src/assets/Banner3.jpg",
-  "src/assets/Banner4.jpg",
+  "/Banner1.jpg",
+  "/Banner2.jpg",
+  "/Banner3.jpg",
+  "/Banner4.jpg",
 ];
 
 const Hero = () => {
@@ -61,26 +61,26 @@ const Hero = () => {
         </svg>
       </button>
       {/* Content */}
-        <div className="absolute bottom-8 left-0 right-0 z-10 flex flex-col items-center w-full px-4">
-          <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 w-full sm:w-auto items-center justify-center">
-            <Link to="products"
-          className="bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg shadow flex items-center gap-2 hover:bg-blue-700 hover:text-white  w-full sm:w-auto justify-center transition hover:translate-x-2 delay-150 duration-300 ease-in-out hover:shadow-lg"
-            >
-          Explore Medicines
-          <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" className="ml-1">
-            <path d="M5 10h10M13 7l3 3-3 3" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-            </Link>
-            <Link to="contact"
-          className="bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow flex items-center gap-2 hover:bg-white hover:text-blue-700 w-full sm:w-auto justify-center transition hover:translate-x-2 delay-150 duration-300 ease-in-out hover:shadow-lg"
-            >
-          Contact Us
-          <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" className="ml-1">
-            <path d="M5 10h10M13 7l3 3-3 3" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-            </Link>
-          </div>
-          {/* Dots */}
+      <div className="absolute bottom-8 left-0 right-0 z-10 flex flex-col items-center w-full px-4">
+        <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 w-full sm:w-auto items-center justify-center">
+          <Link to="products"
+            className="bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg shadow flex items-center gap-2 hover:bg-blue-700 hover:text-white  w-full sm:w-auto justify-center transition hover:translate-x-2 delay-150 duration-300 ease-in-out hover:shadow-lg"
+          >
+            Explore Medicines
+            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" className="ml-1">
+              <path d="M5 10h10M13 7l3 3-3 3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </Link>
+          <Link to="contact"
+            className="bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow flex items-center gap-2 hover:bg-white hover:text-blue-700 w-full sm:w-auto justify-center transition hover:translate-x-2 delay-150 duration-300 ease-in-out hover:shadow-lg"
+          >
+            Contact Us
+            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" className="ml-1">
+              <path d="M5 10h10M13 7l3 3-3 3" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </Link>
+        </div>
+        {/* Dots */}
         <div className="flex space-x-2 mt-4">
           {images.map((_, idx) => (
             <button
