@@ -18,7 +18,7 @@ const Header = ({ user, setUser, cartItems }) => {
     <header className="bg-white shadow-md px-4 sm:px-6 py-4 flex justify-between items-center relative z-50">
       {/* Logo and Brand */}
       <div className="flex items-center space-x-2 flex-shrink-0">
-        <img src="src/assets/Logo.svg" alt="Logo" className="w-10 h-10" />
+        <img src="/Logo.svg" alt="Logo" className="w-10 h-10" />
         <h1 className="text-2xl font-bold text-blue-700">MedVault</h1>
       </div>
 
