@@ -9,19 +9,19 @@ const posts = [
   {
     id: 1,
     title: "AI-Powered Cancer Drug Enters Human Trials",
-    image: "src/assets/blog1.avif",
+    image: "/blog1.avif",
     body: `A groundbreaking cancer drug developed using artificial intelligence has entered human trials, marking a major milestone in precision oncology. Researchers used machine learning to identify compounds that target specific tumor pathways, dramatically accelerating the drug discovery process. The new therapy has shown promising results in preclinical models, particularly for aggressive forms of breast and lung cancer. Experts believe this could pave the way for faster, more personalized treatments with fewer side effects. The trial will evaluate safety, dosage, and efficacy across multiple stages, with results expected by mid-2026.`
   },
   {
     id: 2,
     title: "India Launches First Agentic AI Health Research Centre",
-    image: "src/assets/blog2.webp",
+    image: "/blog2.webp",
     body: `India has inaugurated its first Agentic AI Health Research Centre in collaboration with SRIHER and Agilisium. The center aims to revolutionize healthcare by integrating artificial intelligence into diagnostics, treatment planning, and public health monitoring. Researchers will focus on chronic diseases like diabetes, cardiovascular conditions, and cancer, using AI to analyze patient data and predict outcomes. The initiative also includes training programs for medical professionals and data scientists, fostering a new generation of tech-savvy healthcare experts. Officials say this marks a turning point in India's digital health strategy.`
   },
   {
     id: 3,
     title: "New mRNA Vaccine Shows Promise Against Cancer",
-    image: "src/assets/blog3.webp",
+    image: "/blog3.webp",
     body: `Scientists have developed a new mRNA-based vaccine that triggers strong immune responses against tumors. Unlike traditional cancer treatments, this vaccine trains the body to recognize and attack cancer cells by encoding tumor-specific antigens. In early trials, patients with melanoma and pancreatic cancer showed significant tumor shrinkage and improved immune markers. The vaccine is being tested in combination with checkpoint inhibitors to enhance its effectiveness. Researchers hope this approach will lead to a new era of immunotherapy, offering safer and more targeted options for cancer patients worldwide.`
   }
 ];
