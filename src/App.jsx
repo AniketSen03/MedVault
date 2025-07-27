@@ -60,7 +60,7 @@ function App() {
       }
 
       axios
-        .post("http://localhost:3000/cart", {
+        .post("https://med-vault-backend.vercel.app/cart", {
           items: updatedCart,
           user: userEmail,
         })
@@ -82,7 +82,7 @@ function App() {
       );
 
       axios
-        .post("http://localhost:3000/cart", {
+        .post("https://med-vault-backend.vercel.app/cart", {
           items: updated,
           user: userEmail,
         })
@@ -99,7 +99,7 @@ function App() {
       const updated = prev.filter((_, index) => index !== id);
 
       axios
-        .post("http://localhost:3000/cart", {
+        .post("https://med-vault-backend.vercel.app/cart", {
           items: updated,
           user: userEmail,
         })

@@ -45,7 +45,7 @@ useLayoutEffect(() => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3000/login", form);
+      const response = await axios.post("https://med-vault-backend.vercel.app/login", form);
 
       alert("Login successful!");
       setSuccess("Login successful!");

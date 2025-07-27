@@ -72,7 +72,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3000/contact", formData);
+      await axios.post("https://med-vault-backend.vercel.app/contact", formData);
       alert(`Thank you ${formData.name}, we’ll get back to you soon!`);
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (err) {

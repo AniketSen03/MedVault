@@ -55,7 +55,7 @@ const Signup = ({ setUser }) => {
         }
 
         try {
-            const response = await axios.post("http://localhost:3000/signup", {
+            const response = await axios.post("https://med-vault-backend.vercel.app/signup", {
                 name: form.name,
                 email: form.email,
                 password: form.password,
