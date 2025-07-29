@@ -88,7 +88,7 @@ const Buy = ({ buyNowItem: propBuyNowItem, user }) => {
     localStorage.setItem("buyCartItems", JSON.stringify(updatedCart));
 
     try {
-      await axios.post("https://med-vault-backend.vercel.app/cart", {
+      await axios.post("https://med-vault-backend.vercel.app/api/cart", {
         items: updatedCart,
         user: finalUser.email,
       });
@@ -131,7 +131,7 @@ const Buy = ({ buyNowItem: propBuyNowItem, user }) => {
     };
 
     try {
-      const response = await axios.post("https://med-vault-backend.vercel.app/order", orderData);
+      const response = await axios.post("https://med-vault-backend.vercel.app/api/order", orderData);
       if (response.status === 201) {
         alert(`Thank you ${formData.name}, your order of ₹${totalPrice} has been placed!`);
         localStorage.removeItem("buyNowItem");

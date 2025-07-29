@@ -17,7 +17,7 @@ const Cart = ({ cartItems, setCartItems, removeFromCart, updateQuantity, userEma
     }
 
     try {
-      await axios.post("https://med-vault-backend.vercel.app/cart", {
+      await axios.post("https://med-vault-backend.vercel.app/api/cart", {
         items: cartItems,
         user: userEmail,
       });
